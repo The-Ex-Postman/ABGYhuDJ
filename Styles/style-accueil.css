@@ -1,6 +1,6 @@
 /* Main structure */
 body {
-    background: url(Assets/images/bg-concert.jpg) no-repeat center center;
+    background: url(../Assets/images/bg-concert.jpg) no-repeat center center;
     background-size: cover;
     background-color: #000000;
     margin: 0 auto;
