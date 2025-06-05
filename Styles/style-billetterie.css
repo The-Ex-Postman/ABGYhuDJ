@@ -1,6 +1,6 @@
 /* Main Structure */
 body{
-    background: url(/Assets/images/bg-onde-sonore.jpg) no-repeat center center;
+    background: url(Assets/images/bg-onde-sonore.jpg) no-repeat center center;
     background-size: cover;
     background-color: #000000;
 }
