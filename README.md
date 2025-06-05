@@ -36,7 +36,7 @@ Aucun framework utilisé ni en CSS ni en JS car leur utilité aurait été trop 
 
 Le site se compose de trois pages :
 
-- `/accueil.html` : Présentation du groupe fictif et de leur événement.
+- `/index.html` : Présentation du groupe fictif et de leur événement.
 - `/billetterie.html` : Présentation des dates et lieux des concerts, avec possibilité de réserver des billets au moyen d'un système de panier.
 - `/formulaire.html` : Page de finalisation des achats. Récapitulatif de la commande, formulaire de saisie d'informations personnelles pour la facturation, et interface dynamique avec un formulaire de paiement.
 
