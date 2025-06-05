@@ -1,6 +1,8 @@
 # Projet ABGYhuDJ - Vente de place pour une tournée live
 
 
+## ATTENTION : Ce site est une maquette pédagogique. Aucune information saisie n'est collectée ou transmise.
+
 
 Auteur : Louis Cavril
 
