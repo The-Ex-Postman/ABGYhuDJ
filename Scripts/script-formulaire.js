@@ -157,7 +157,7 @@ formulairePaiement.addEventListener('submit', (e) => {
         container.innerHTML = `
             <h2 class="second-title"> Paiement confirmé !</h2>
             <p style="font-size: 1.5rem; text-align: center; margin: 2rem;">Merci pour votre achat ! Vos billets ont été enregistrés.</p>
-            <a href="../accueil.html" class="back-button" style="margin-top: 3rem;">Retour à l'accueil</a>
+            <a href="../index.html" class="back-button" style="margin-top: 3rem;">Retour à l'accueil</a>
         `;
     }, 1000);
 });
