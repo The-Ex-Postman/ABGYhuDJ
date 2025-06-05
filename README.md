@@ -27,6 +27,7 @@ Ce projet est à l'heure actuelle exclusivement Front-End.
 - CSS3
 - JavaScript
 - Lighthouse (tests d'accessibilité et de performance)
+- Clip Studio Paint (réalisation du logo original)
 
 Aucun framework utilisé ni en CSS ni en JS car leur utilité aurait été trop faible dans les interfaces que j'ai pensé et designé. J'ai donc préféré utiliser les versions natives afin d'alléger le poids des fichiers.
 
