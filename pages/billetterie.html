@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ABGYhuDJ en concert</title>
+        <meta name="description" content="ABGYhuDJ, le groupe phare du Youtube français en live dans toute la France cet été 2025 ! Venez acheter vos places pour cet événement à ne pas manquer !">
+        <meta name="keywords" content="ABGYhuDJ, YouTube, concert, live, France, tickets">
+        <link rel="stylesheet" href="../Styles/style-billetterie.css">
+        <script src="https://kit.fontawesome.com/2a288c724f.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><!--Roboto-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Open Sans-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>BILLETERIE</h1>
+            <button aria-haspopup="dialog" aria-controls="popup-panier" aria-expanded="false" class="panier">Panier</button>
+            <div role="dialog" aria-modal="true" aria-labelledby="titre-panier" class="hidden-panier popup-panier" id="popup-panier">
+                <p class="nombre-places">Aucun billet sélectionné</p>
+                <p class="prix-place">Prix unitaire : 0€</p>
+                <p class="total">Total à payer : 0€</p>
+                <a href="formulaire.html" class="mini-bouton-achat">Finaliser mes achats</a>
+                <button class="vider-panier">Vider le panier</button>
+            </div>
+        </header>
+        <main class="grille">
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/paris.jpg" alt="Une vue de la ville de Paris">
+                <div class="texte-vignette">
+                    <h3>Paris</h3>
+                    <p>1er juin 2025 - 20h30<br>Accor Arena</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-paris" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="toogle-deroulant" id="id-paris">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-paris">Quantité :</label>
+                        <input type="number" id="quantite-debout-paris" name="quantite-debout-paris">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-paris">Quantité :</label>
+                        <input type="number" id="quantite-assis-paris" name="quantite-assis-paris">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/lille.jpg" alt="Une vue de la ville de Lille">
+                <div class="texte-vignette">
+                    <h3>Lille</h3>
+                    <p>5 juin 2025 - 20h30<br>L'Aéronef</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-lille" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant" id="id-lille">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-lille">Quantité :</label>
+                        <input type="number" id="quantite-debout-lille" name="quantite-debout-lille">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-lille">Quantité :</label>
+                        <input type="number" id="quantite-assis-lille" name="quantite-assis-lille">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/nantes.jpg" alt="Une vue de la ville de Nantes">
+                <div class="texte-vignette">
+                    <h3>Nantes</h3>
+                    <p>9 juin 2025 - 20h30<br>Warehouse</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-nantes" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant"  id="id-nantes">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-nantes">Quantité :</label>
+                        <input type="number" id="quantite-debout-nantes" name="quantite-debout-nantes">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-nantes">Quantité :</label>
+                        <input type="number" id="quantite-assis-nantes" name="quantite-assis-nantes">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/bordeaux.jpg" alt="Une vue de la ville de Bordeaux">
+                <div class="texte-vignette">
+                    <h3>Bordeaux</h3>
+                    <p>14 juin 2025 - 20h30<br>L'Arena</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-bordeaux" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant"  id="id-bordeaux">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-bordeaux">Quantité :</label>
+                        <input type="number" id="quantite-debout-bordeaux" name="quantite-debout-bordeaux">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-bordeaux">Quantité :</label>
+                        <input type="number" id="quantite-assis-bordeaux" name="quantite-assis-bordeaux">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/toulouse.jpg" alt="Une vue de la ville de Toulouse">
+                <div class="texte-vignette">
+                    <h3>Toulouse</h3>
+                    <p>20 juin 2025 - 20h30<br>Le Bikini</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-toulouse" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant" id="id-toulouse">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-toulouse">Quantité :</label>
+                        <input type="number" id="quantite-debout-toulouse" name="quantite-debout-toulouse">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-toulouse">Quantité :</label>
+                        <input type="number" id="quantite-assis-toulouse" name="quantite-assis-toulouse">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/marseille.jpg" alt="Une vue de la ville de Marseille">
+                <div class="texte-vignette">
+                    <h3>Marseille</h3>
+                    <p>25 juin 2025 - 20h30<br>Le Dôme</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-marseille" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant" id="id-marseille">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-marseille">Quantité :</label>
+                        <input type="number" id="quantite-debout-marseille" name="quantite-debout-marseille">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-marseille">Quantité :</label>
+                        <input type="number" id="quantite-assis-marseille" name="quantite-assis-marseille">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/lyon.jpg" alt="Une vue de la ville de Lyon">
+                <div class="texte-vignette">
+                    <h3>Lyon</h3>
+                    <p>1er juillet 2025 - 20h30<br>Le Transbordeur</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-lyon" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant" id="id-lyon">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-lyon">Quantité :</label>
+                        <input type="number" id="quantite-debout-lyon" name="quantite-debout-lyon">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-lyon">Quantité :</label>
+                        <input type="number" id="quantite-assis-lyon" name="quantite-assis-lyon">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+            <div class="vignette">
+                <img class="ville-vue" src="/Assets/images/strasbourg.jpg" alt="Une vue de la ville de Strasbourg">
+                <div class="texte-vignette">
+                    <h3>Strasbourg</h3>
+                    <p>5 juin 2025 - 20h30<br>La Laiterie</p>
+                </div>
+                <button aria-expanded="false" aria-controls="id-strasbourg" class="deroulant"><i class="fa-solid fa-caret-down"></i></button>
+                <div class="hidden toogle-deroulant" id="id-strasbourg">
+                    <h5>Tarif debout : 40€</h5>
+                    <form>
+                        <label for="quantite-debout-strasbourg">Quantité :</label>
+                        <input type="number" id="quantite-debout-strasbourg" name="quantite-debout-strasbourg">
+                    </form>
+                    <h5>Tarif assis : 50€</h5>
+                    <form>
+                        <label for="quantite-assis-strasbourg">Quantité :</label>
+                        <input type="number" id="quantite-assis-strasbourg" name="quantite-assis-strasbourg">
+                    </form>
+                    <button class="ajout-panier">Ajouter au panier</button>
+                    <p class="message-erreur"></p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="./formulaire.html" class="bouton-achat">Finaliser mes achats</a>
+            <a href="../accueil.html" class="retour">Accueil</a>
+        </footer>
+        <script src="../Scripts/script-billetterie.js"></script>
+    </body>
+</html>
